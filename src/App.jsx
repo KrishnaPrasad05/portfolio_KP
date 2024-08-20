@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Achievements from './components/Achievements'
+import TopButton from './components/TopButton'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Projects/>
       <Achievements/>
       <Contact/>
+      <TopButton/>
       </div>
     
     </div>

@@ -2,11 +2,11 @@ import React from 'react'
 import { motion } from "framer-motion" 
 import { BsGithub } from 'react-icons/bs'
 import { DiJava, DiJavascript, DiMongodb } from 'react-icons/di'
-import { FaNodeJs } from 'react-icons/fa'
+import { FaAngular, FaNodeJs } from 'react-icons/fa'
 import { FiFigma } from 'react-icons/fi'
 import {RiReactjsLine, RiTailwindCssLine} from "react-icons/ri"
 import { SiExpress, SiMongoose } from 'react-icons/si'
-import { TbBrandReactNative } from 'react-icons/tb'
+import { TbBrandReactNative, TbSql } from 'react-icons/tb'
 
 const iconVariants = (duration) =>({
     initial :{y:-10},
@@ -43,6 +43,13 @@ function Technologies() {
                 <RiReactjsLine className=" text-7xl text-cyan-400"/>
             </motion.div>
             <motion.div
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-gray-300 p-4">
+                <FaAngular className=" text-7xl text-red-600"/>
+            </motion.div>
+            <motion.div
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
@@ -63,13 +70,7 @@ function Technologies() {
             className="rounded-2xl border-4 border-gray-300 p-4">
                 <DiMongodb className=" text-7xl text-green-400"/>
             </motion.div>
-            <motion.div
-            variants={iconVariants(3.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-gray-300 p-4">
-                <SiMongoose className=" text-7xl text-red-800"/>
-            </motion.div>
+            
             <motion.div
             variants={iconVariants(3)}
             initial="initial"
@@ -92,12 +93,13 @@ function Technologies() {
                 <DiJava className=" text-7xl text-red-700"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(2.5)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-gray-300 p-4">
-                <BsGithub className=" text-7xl text-stone-800"/>
+                <TbSql className=" text-7xl text-yellow-500"/>
             </motion.div>
+           
             <motion.div
             variants={iconVariants(3)}
             initial="initial"

@@ -2,12 +2,22 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate MERN stack developer with a strong foundation in React, Node.js, Express.js, MongoDB, Mongoose, and Redux. Along with backend and frontend expertise, I have a keen eye for UI/UX design, leveraging Figma to create intuitive user interfaces. My programming knowledge extends to Java, and I am proficient in working with both DBMS and RDBMS systems. I thrive on creating efficient, scalable web applications and am always eager to learn and apply new technologies to solve complex problems.`;
 
 export const ABOUT_TEXT = `I am a dedicated and enthusiastic MERN stack developer with a comprehensive skill set in modern web development technologies. My expertise lies in building dynamic and responsive web applications using React, Node.js, Express.js, MongoDB, Mongoose, and Redux. I have a strong understanding of both frontend and backend development, allowing me to create seamless and efficient full-stack solutions. In addition to my technical skills, I have a passion for UI/UX design, with hands-on experience using Figma to craft user-friendly and visually appealing interfaces. I believe that a great user experience is at the heart of any successful application, and I strive to balance functionality with aesthetics in every project I undertake. My programming knowledge extends to Java and able to work with both DBMS and RDBMS systems.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Nov 2024 - Present",
+    role: "Associate Software Engineer",
+    company: "Tech Mahindra",
+    description: `At Tech Mahindra, I'm working as an Associate Software Engineer, focusing on hands-on learning through internal project development. I gained practical experience in React, Angular, JavaScript, Node.js , Express.js Mongodb and SQL, and improved my understanding of agile methodologies, version control, and clean code practices, laying a strong foundation for real-world software development.
+`,
+technologies: ["MERN","MEAN","Agile"],
+    link:"https://www.techmahindra.com/",
+  },
   {
     year: "Jul 2024 - Aug 2024",
     role: "Full Stack Developer Intern",
@@ -56,8 +66,16 @@ export const PROJECTS = [
     image: project2,
     description:
       "RecipeWritings is a dynamic recipe book for Indian cuisines, featuring full CRUD operations, secure route authentication and authorization, a comment section, password reset, and a responsive UI. Built with the MVC architecture, it utilizes React for the view, JWT and bcrypt for security, and efficient controllers and routes.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "Express.js","MongoDB","Mongoose"],
+    technologies: ["React", "Node.js", "Express.js","MongoDB","Mongoose"],
     link:"https://recipe-writings.onrender.com/",
+  },
+  {
+    title: "Web2Wed",
+    image: project5,
+    description:
+      "Web2Wed is a feature-rich matrimony website designed to simplify and enhance the matchmaking experience. It enables users to build detailed personal profiles and interact with potential matches through a seamless request and approval system. With an integrated online matchmaking system. The user-friendly interface and responsive design make it accessible across all devices, offering a smooth and personalized journey for those seeking a life partner",
+    technologies: ["Angular", "Nodejs", "Expressjs", "Mongodb","Mongoose"],
+    link:"https://web2-wed.vercel.app/",
   },
   {
     title: "IJRMA - Journal App",
@@ -75,6 +93,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Bootstrap", "React"],
     link:"https://carsdekho.vercel.app/",
   },
+  
 ];
 
 export const CONTACT = {

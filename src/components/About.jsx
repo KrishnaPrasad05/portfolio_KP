@@ -25,7 +25,7 @@ function About() {
                 <p className="text-stone-700 my-2 max-w-xl py-6 text-justify">{ABOUT_TEXT}</p>
                 
             </div>
-            <a href="https://drive.google.com/file/d/13B6_OsQVwdOQqeCAtV9D7GYaCrvo6ufS/view?usp=sharing" target='_blank'><div className="w-32 text-start border-slate-900 border-2 rounded-3xl p-1 text-slate-900 hover:bg-slate-800 hover:text-white transition-all duration-75 cursor-pointer">
+            <a href="https://drive.google.com/file/d/1KRXfUjStenv2pHNjLJg-niaYauzlzKob/view?usp=sharing" target='_blank'><div className="w-32 text-start border-slate-900 border-2 rounded-3xl p-1 text-slate-900 hover:bg-slate-800 hover:text-white transition-all duration-75 cursor-pointer">
                     <p className="text-center font-semibold">View Resume</p>
                 </div></a>
         </motion.div>
